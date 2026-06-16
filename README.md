@@ -1,3 +1,8 @@
+Análisis previo
+Pasa porque los métodos como Trapecio y Simpson evalúan la función "a ciegas", usando puntos separados a la misma distancia sin importar si la curva es fácil o difícil. En cambio, Gauss-Legendre escoge matemáticamente las mejores posiciones para los puntos (nodos) y cuánto peso darles. 
+Por eso, con solo 5 evaluaciones es capaz de ser miles de veces más preciso que los otros que usan 13.
+
+
 Pregunta 1: Eficiencia Computacional: Tomando en cuenta los resultados de la terminal, explique la relación entre el número de evaluaciones de la función f(x) y el
 error absoluto obtenido por Gauss-Legendre frente a los métodos de Newton-Cotes (Trapecio y Simpson). ¿Por qué se dice que Gauss optimiza el costo computacional?
 
